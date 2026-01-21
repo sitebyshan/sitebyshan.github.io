@@ -212,7 +212,9 @@
     padding: 15px 0px 0px 0px;
     border-left: 3px dashed rgb(101, 101, 101);
 }
-
+/* .col-2{
+    padding: 0px;
+} */
 /* .pc-img{
     width: 100%;
     height: 100%;
@@ -454,4 +456,11 @@
     position: absolute;
     bottom: -30%;
     right: 560px;
+}
+
+.tools-section{
+    background-color: red;
+    height: max-content;
+    width: 100%;
+    margin-top: 150px;
 }
