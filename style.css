@@ -15,6 +15,73 @@
 }
 
 
+
+
+
+
+#scrollTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 11px;
+  background-color: rgb(0, 0, 0);
+  border: 4px solid rgba(239, 78, 67, 0);
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.btimg{
+    width: 35px;
+    height: 35px;
+}
+#scrollTopBtn:hover{
+    transform: scale(0.8);
+    border: 4px solid rgb(239, 79, 67);
+}
+.side-connection{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+.sc-para{
+    font-size: 60px;
+    font-weight: 500;
+    color: black;
+}
+.email-sn {
+    /* background-color: #f26221; */
+    /* width: max-content; */
+    /* border-radius: 50px; */
+    /* padding: 13px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+    right: 21px;
+    transition: 0.5s;
+}
+.email-sn p{
+    background-color: red;
+    padding: 12px 12px 12px 12px;
+}
+.email-sn:hover {
+    transform: scale(0.9);
+}
+.email-sn-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
+
+
 .navigation{
     width: 100%;
     height: 60px;

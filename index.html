@@ -404,31 +404,31 @@
 
                     <div class="row">
 
-                        <div class="col-2" >
+                        <div class="col-2">
                             <div class="tools-img-box">
                                 <img src="/portfolio-img/figma.svg" alt="" class="toolimg">
                             </div>
                         </div>
 
-                        <div class="col-2" >
+                        <div class="col-2">
                             <div class="tools-img-box">
                                 <img src="/portfolio-img/css.svg" alt="" class="toolimg">
                             </div>
                         </div>
 
-                        <div class="col-2" >
+                        <div class="col-2">
                             <div class="tools-img-box">
                                 <img src="/portfolio-img/js.svg" alt="" class="toolimg">
                             </div>
                         </div>
 
-                        <div class="col-2" >
+                        <div class="col-2">
                             <div class="tools-img-box">
                                 <img src="/portfolio-img/ai.svg" alt="" class="toolimg">
                             </div>
                         </div>
 
-                        <div class="col-2" >
+                        <div class="col-2">
                             <div class="tools-img-box">
                                 <img src="/portfolio-img/bootstrap.svg" alt="" class="toolimg">
                             </div>
@@ -521,6 +521,16 @@
             </div>
         </section>
 
+
+        <div class="email-sn">
+            <p>CONNECT ME</p>
+            <img src="/portfolio-img/robot.svg" alt="" class="email-sn-img">
+        </div>
+
+
+        <button id="scrollTopBtn" onclick="scrollToTop()"><img src="/portfolio-img/Chevron-up.svg" alt=""
+                class="btimg"></button>
+
     </div>
 
 </body>
@@ -566,6 +576,26 @@
     });
 </script>
 
+<script>
+    // Show button when user scrolls down
+    window.onscroll = function () {
+        let btn = document.getElementById("scrollTopBtn");
+        if (document.documentElement.scrollTop > 100) {
+            btn.style.display = "block";
+        } else {
+            btn.style.display = "none";
+        }
+    };
+
+    // Scroll to top smoothly
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    }
+
+</script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
