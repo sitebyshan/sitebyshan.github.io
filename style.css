@@ -54,6 +54,7 @@
     /* padding: 13px; */
     display: flex;
     flex-direction: row;
+    gap: 10px;
     align-items: center;
     position: fixed;
     bottom: 100px;
@@ -61,8 +62,15 @@
     transition: 0.5s;
 }
 .email-sn p{
-    background-color: red;
-    padding: 12px 12px 12px 12px;
+    background-color: rgb(255, 178, 97, 100%);
+    color: black;
+    padding: 4px 12px 4px 12px;
+    border-radius: 50px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    visibility: hidden;
+    opacity: 0;
 }
 .email-sn:hover {
     transform: scale(0.9);
