@@ -71,9 +71,12 @@
     font-weight: 700;
     visibility: hidden;
     opacity: 0;
+    transition: 0.3s;
 }
-.email-sn:hover {
-    transform: scale(0.9);
+.email-sn:hover p{
+    /* transform: scale(0.9); */
+    visibility: visible;
+    opacity: 1;
 }
 .email-sn-img{
     width: 65px;
