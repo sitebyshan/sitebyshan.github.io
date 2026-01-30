@@ -32,4 +32,32 @@
         width: 450px;
         height: 450px;
     }
+
+    .portfolio-sections{
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .banner-nav{
+        display: none;
+    }
+}
+@media screen and (max-width:470px) {
+
+    .banner-contents h1{
+        font-weight: 600;
+        font-size: 65px;
+    }
+
+    .banner-img{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media screen and (max-width:380px) {
+
+    .banner-contents h1{
+        font-weight: 500;
+        font-size: 50px;
+    }
 }
