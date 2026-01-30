@@ -41,6 +41,11 @@
     .banner-nav{
         display: none;
     }
+    
+    .ab-section-contents p{
+        font-size: 28px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 @media screen and (max-width:470px) {
 
@@ -53,11 +58,21 @@
         width: 300px;
         height: 300px;
     }
+
+    .ab-section-contents p{
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
 @media screen and (max-width:380px) {
 
     .banner-contents h1{
         font-weight: 500;
         font-size: 50px;
+    }
+
+    .ab-section-contents p{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
     }
 }
