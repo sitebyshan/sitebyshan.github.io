@@ -87,6 +87,7 @@
 .hire-button p:hover {
     background-color: rgba(255, 0, 0, 0.696);
 }
+
 .hire-btn p {
     color: rgb(0, 0, 0);
     background-color: rgb(120, 138, 255);
@@ -129,7 +130,7 @@
 
 #scrollTopBtn:hover {
     transform: scale(0.8);
-    border: 4px solid rgb(239, 79, 67);
+    border: 4px solid rgb(120, 138, 255);
 }
 
 .side-connection {
@@ -142,6 +143,42 @@
     font-size: 60px;
     font-weight: 500;
     color: black;
+}
+.email-sn {
+    /* background-color: #f26221; */
+    /* width: max-content; */
+    /* border-radius: 50px; */
+    /* padding: 13px; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    position: fixed;
+    bottom: 100px;
+    right: 21px;
+    transition: 0.5s;
+}
+.email-sn p{
+    background-color: rgb(120, 138, 255);
+    color: black;
+    padding: 4px 12px 4px 12px;
+    border-radius: 50px;
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+.email-sn:hover p{
+    /* transform: scale(0.9); */
+    visibility: visible;
+    opacity: 1;
+}
+.email-sn-img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
 }
 
 
@@ -162,6 +199,7 @@
 .header-contents {
     width: 100%;
     height: 100%;
+    /* text-align: center; */
 }
 
 .name {
@@ -309,6 +347,20 @@
 
 .work-img-details-btn a {
     text-decoration: none;
+}
+
+.skill-section {
+    background-image: url(/mhdp-img/skills-bg.svg);
+    object-fit: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 170px;
+}
+
+.skill-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .tool-section {
