@@ -61,9 +61,18 @@
         display: none;
     }
 
-    .hire-btn p {
+    .hire-btn {
         display: flex;
     }
+
+    .header-contents {
+        text-align: center;
+    }
+
+    .hire-button {
+        display: none;
+    }
+
 
 }
 
