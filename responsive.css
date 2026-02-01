@@ -61,6 +61,10 @@
         display: none;
     }
 
+    .hire-btn p{
+        display: flex;
+    }
+
 }
 
 @media screen and (max-width:768px) {
